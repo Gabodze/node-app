@@ -1,5 +1,6 @@
 import React from "react";
 import styles from './Navbar.module.css'
+import Link from "next/link"
 
 
 function Navbar() {
@@ -27,6 +28,7 @@ function Navbar() {
     {
       id: 6,
       title: "Dashboard",
+      url: '/Dashboard'
     },
   ];
 
@@ -35,7 +37,7 @@ function Navbar() {
       <div>Main</div>
       <div className={styles.links}>
         {links.map((link) => (
-          <div>{link.title}</div>
+          <Link href={link.url}>{link.title}</Link>
         ))}
       </div>
     </div>

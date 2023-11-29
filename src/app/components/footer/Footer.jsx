@@ -19,6 +19,11 @@ function Footer(){
             height={24}
             alt="Fb"
             />
+            {/* <img src="/3.png" className={styles.icon} 
+            width={24} 
+            height={24}
+            alt="Fb"
+            /> */}
             <img src="/3.png" className={styles.icon} 
             width={24} 
             height={24}
@@ -29,6 +34,7 @@ function Footer(){
             height={24}
             alt="Fb"
             />
+          
             <img src="/3.png" className={styles.icon} 
             width={24} 
             height={24}
