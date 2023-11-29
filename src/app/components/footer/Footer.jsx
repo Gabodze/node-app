@@ -8,6 +8,7 @@ function Footer(){
     return (
        <div className={styles.container}> 
        {/*Hellogi */}
+       {/*Hello */}
         <div>@all rights</div>
         <div className={styles.sotialNetworks}>
             <img src="/1.png"  className={styles.icon}
