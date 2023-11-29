@@ -7,6 +7,7 @@ import Image from 'next/image'
 function Footer(){
     return (
        <div className={styles.container}> 
+       {/*Hellogi */}
         <div>@all rights</div>
         <div className={styles.sotialNetworks}>
             <img src="/1.png"  className={styles.icon}
