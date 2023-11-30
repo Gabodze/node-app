@@ -9,7 +9,7 @@ function Footer(){
        <div className={styles.container}> 
      
 
-        <div>@all rights</div>
+       <div>@all rights</div>
         <div className={styles.sotialNetworks}>
             <img src="/1.png"  className={styles.icon}
             width={24} 
